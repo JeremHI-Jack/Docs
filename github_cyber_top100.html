@@ -1,0 +1,1541 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Cybersecurity Top – This Week</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #0f1621;
+      --text: #e6edf3;
+      --muted: #9fb0c0;
+      --border: rgba(255,255,255,0.08);
+      --link: #7bdcff;
+      --pill: rgba(123, 220, 255, 0.14);
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card: #ffffff;
+        --text: #111827;
+        --muted: #475569;
+        --border: rgba(2,6,23,0.10);
+        --link: #0366d6;
+        --pill: rgba(3, 102, 214, 0.10);
+        --shadow: 0 10px 30px rgba(2,6,23,0.08);
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.45;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 60px;
+    }
+
+    header {
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 14px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .toolbar .left {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .kpi {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    input[type="search"] {
+      width: min(520px, 92vw);
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      outline: none;
+    }
+    input[type="search"]::placeholder {
+      color: color-mix(in srgb, var(--muted) 80%, transparent);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 14px;
+      vertical-align: top;
+    }
+
+    tr + tr td {
+      border-top: 1px solid var(--border);
+    }
+
+    td.rank {
+      width: 76px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      padding-right: 6px;
+    }
+
+    .name {
+      font-weight: 650;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .desc {
+      color: var(--text);
+      opacity: 0.92;
+      font-size: 14px;
+      margin-bottom: 8px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .meta {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--pill);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      word-break: break-all;
+    }
+
+    footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>GitHub Cybersecurity Top – This Week</h1>
+      <div class="sub">Generated: 2026-01-23T09:48:59Z • Window: last 7 days • Top: 100</div>
+      <div class="sub">Keywords: cybersecurity, pentest, offensive, redteam, blue team, defensive, infosec, security tool, hacking</div>
+    </header>
+
+    <section class="card" aria-label="Results">
+      <div class="toolbar">
+        <div class="left">
+          <input id="search" type="search" placeholder="Filter by repository name, owner, or description…" autocomplete="off" />
+          <div class="kpi">
+            fetched_raw: <strong>1429</strong> • unique_with_description: <strong>1135</strong>
+          </div>
+        </div>
+        <div class="kpi" id="count"></div>
+      </div>
+
+      <table>
+        <tbody id="rows">
+          <tr>
+              <td class="rank">001</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/AymanLakhnati/Robust-and-Explainable-Intrusion-Detection-Under-Distribution-Shift-in-Network-Telemetry" target="_blank" rel="noopener noreferrer">AymanLakhnati/Robust-and-Explainable-Intrusion-Detection-Under-Distribution-Shift-in-Network-Telemetry</a>
+                </div>
+                <div class="desc">Cybersecurity research project</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/AymanLakhnati/Robust-and-Explainable-Intrusion-Detection-Under-Distribution-Shift-in-Network-Telemetry</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">002</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/AymanLakhnati/From-CVSS-to-Actually-Reachable-Dependency-Vulnerability-Prioritization-for-Modern-Codebases" target="_blank" rel="noopener noreferrer">AymanLakhnati/From-CVSS-to-Actually-Reachable-Dependency-Vulnerability-Prioritization-for-Modern-Codebases</a>
+                </div>
+                <div class="desc">Cybersecurity research project</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/AymanLakhnati/From-CVSS-to-Actually-Reachable-Dependency-Vulnerability-Prioritization-for-Modern-Codebases</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">003</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/EdrianHernandez/Sentinel-Cyberdash" target="_blank" rel="noopener noreferrer">EdrianHernandez/Sentinel-Cyberdash</a>
+                </div>
+                <div class="desc">Cybersecurity Threat Detection Dashboard</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/EdrianHernandez/Sentinel-Cyberdash</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">004</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Arthurfert/SecLLM-Gen" target="_blank" rel="noopener noreferrer">Arthurfert/SecLLM-Gen</a>
+                </div>
+                <div class="desc">Offensive &amp; Defensive cybersecurity LLM application</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/Arthurfert/SecLLM-Gen</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">005</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs" target="_blank" rel="noopener noreferrer">HChristopherNaoyuki/cybersecurity-chatbot-cs</a>
+                </div>
+                <div class="desc">PROG6221 POE: Cybersecurity Awareness Chatbot</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">006</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Vikramgadam/cybersecurity-projects" target="_blank" rel="noopener noreferrer">Vikramgadam/cybersecurity-projects</a>
+                </div>
+                <div class="desc">A hands-on cybersecurity projects repository</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/Vikramgadam/cybersecurity-projects</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">007</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs-final" target="_blank" rel="noopener noreferrer">HChristopherNaoyuki/cybersecurity-chatbot-cs-final</a>
+                </div>
+                <div class="desc">PROG6221 POE: Cybersecurity Awareness Chatbot Final</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs-final</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">008</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/mahadzulfiqar/XSS-Vulnerability-Report" target="_blank" rel="noopener noreferrer">mahadzulfiqar/XSS-Vulnerability-Report</a>
+                </div>
+                <div class="desc">Cybersecurity lab project - XSS testing on DVWA</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/mahadzulfiqar/XSS-Vulnerability-Report</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">009</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/gee44njuguna/Digital_detective_254-" target="_blank" rel="noopener noreferrer">gee44njuguna/Digital_detective_254-</a>
+                </div>
+                <div class="desc">A bot with cybersecurity and criminology tactics</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/gee44njuguna/Digital_detective_254-</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">010</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Polawat14/Proj3k_CyberSecurityWeb" target="_blank" rel="noopener noreferrer">Polawat14/Proj3k_CyberSecurityWeb</a>
+                </div>
+                <div class="desc">Cybersecurity_Website Project</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/Polawat14/Proj3k_CyberSecurityWeb</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">011</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/khaoszephyr/Cybersecurity-Homelab" target="_blank" rel="noopener noreferrer">khaoszephyr/Cybersecurity-Homelab</a>
+                </div>
+                <div class="desc">This repository documents my personal cybersecurity home lab used to practice virtualization, network segmentation, Win server administration, security monitoring and attack simulation</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/khaoszephyr/Cybersecurity-Homelab</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">012</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/anandkumarbind798/hacker-login" target="_blank" rel="noopener noreferrer">anandkumarbind798/hacker-login</a>
+                </div>
+                <div class="desc">Cybersecurity themed hacker-style login page UI (HTML, CSS, JavaScript)</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/anandkumarbind798/hacker-login</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">013</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/cyberdudebivash/mcp-server" target="_blank" rel="noopener noreferrer">cyberdudebivash/mcp-server</a>
+                </div>
+                <div class="desc">CYBERDUDEBIVASH Autonomous Zero-Trust AI Cybersecurity Command Center (MCP Server)</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/cyberdudebivash/mcp-server</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">014</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Abdullah-Akram04/google-cyber-security" target="_blank" rel="noopener noreferrer">Abdullah-Akram04/google-cyber-security</a>
+                </div>
+                <div class="desc">This repository serves as a structured and professional documentation of my learning journey through the Google Cybersecurity Certificate program — a foundational cybersecurity curriculum designed to build the mindset, technical knowledge, and practical skills required for entry-level cybersecurity and SOC roles.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/Abdullah-Akram04/google-cyber-security</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">015</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/roshansamarasinghe213/Honeypot-For-LMS-with-AI-Powered-Predictive-Analysis" target="_blank" rel="noopener noreferrer">roshansamarasinghe213/Honeypot-For-LMS-with-AI-Powered-Predictive-Analysis</a>
+                </div>
+                <div class="desc">This is a individual project that combination of Cybersecurity and AI</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/roshansamarasinghe213/Honeypot-For-LMS-with-AI-Powered-Predictive-Analysis</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">016</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/AlexWabita/cybersecurity-mastery-2026" target="_blank" rel="noopener noreferrer">AlexWabita/cybersecurity-mastery-2026</a>
+                </div>
+                <div class="desc">My structured journey to cybersecurity mastery through hands-on projects and ethical hacking practice</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/AlexWabita/cybersecurity-mastery-2026</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">017</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/VianneyLB/Deepfake_Cybersecurity_Training" target="_blank" rel="noopener noreferrer">VianneyLB/Deepfake_Cybersecurity_Training</a>
+                </div>
+                <div class="desc">Cybersecurity training PoC simulating social engineering attacks through AI-driven multi-persona meetings. Features role-based orchestration, real-time TTS dialogue, and comprehensive metrics for training effectiveness.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/VianneyLB/Deepfake_Cybersecurity_Training</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">018</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/FearThePLOTO/CyberSecurity-Writeups" target="_blank" rel="noopener noreferrer">FearThePLOTO/CyberSecurity-Writeups</a>
+                </div>
+                <div class="desc">Security research &amp; learning repository -  security tutorials, CTF write-ups, and technical documentation.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/FearThePLOTO/CyberSecurity-Writeups</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">019</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/E-m-e-k-a/cybersecurity-learning-portfolio" target="_blank" rel="noopener noreferrer">E-m-e-k-a/cybersecurity-learning-portfolio</a>
+                </div>
+                <div class="desc">Documenting my learning journey with hands-on labs and analysis</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/E-m-e-k-a/cybersecurity-learning-portfolio</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">020</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ZuriZeal/cybersecurity-lab-journal" target="_blank" rel="noopener noreferrer">ZuriZeal/cybersecurity-lab-journal</a>
+                </div>
+                <div class="desc">A cybersecurity practice repository documenting labs, projects, and learning. It includes log analysis, SIEM, Linux, SQL, network security, and incident response exercises. Each entry notes goals, tools, steps, findings, and lessons learned, forming a portfolio of cybersecurity skills and growth.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/ZuriZeal/cybersecurity-lab-journal</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">021</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/yusufvandi/cybersecurity-foundations-portfolio" target="_blank" rel="noopener noreferrer">yusufvandi/cybersecurity-foundations-portfolio</a>
+                </div>
+                <div class="desc">Structured documentation of my cybersecurity learning, focusing on network security fundamentals, OSI-layer threats, and defensive reasoning.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/yusufvandi/cybersecurity-foundations-portfolio</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">022</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/andreymsdev/Cyber-Labs-Writeups" target="_blank" rel="noopener noreferrer">andreymsdev/Cyber-Labs-Writeups</a>
+                </div>
+                <div class="desc">Technical documentation of Cybersecurity challenges, CTF write-ups, and custom security tools.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/andreymsdev/Cyber-Labs-Writeups</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">023</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/abdurrehman-raza/abdurrehman-raza" target="_blank" rel="noopener noreferrer">abdurrehman-raza/abdurrehman-raza</a>
+                </div>
+                <div class="desc">My GitHub profile README showcasing my learning journey in programming and cybersecurity.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/abdurrehman-raza/abdurrehman-raza</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">024</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/sayoalonzo2-hue/Simple-Brute-Force-Attack-Simulator-" target="_blank" rel="noopener noreferrer">sayoalonzo2-hue/Simple-Brute-Force-Attack-Simulator-</a>
+                </div>
+                <div class="desc">I&#x27;m trying to learn cybersecurity. If anyone is interested, please contact me.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/sayoalonzo2-hue/Simple-Brute-Force-Attack-Simulator-</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">025</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/AtlastDeepLearning/Google-Cybersecurity-Professional-Certificate" target="_blank" rel="noopener noreferrer">AtlastDeepLearning/Google-Cybersecurity-Professional-Certificate</a>
+                </div>
+                <div class="desc">Repository containing practical exercises, documentation, and learning artifacts from the Google Cybersecurity Professional Certificate (9-course series), including security principles, network security, SIEM tools, incident response, and Python automation.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/AtlastDeepLearning/Google-Cybersecurity-Professional-Certificate</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">026</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/adityasarwade700/human-centric-cyber-ai-architecture" target="_blank" rel="noopener noreferrer">adityasarwade700/human-centric-cyber-ai-architecture</a>
+                </div>
+                <div class="desc">Human-centric, lock-governed architecture for cybersecurity, AI, automation, robotics, and future system infrastructure.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/adityasarwade700/human-centric-cyber-ai-architecture</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">027</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/once0626/CyberSecurity-Internship-Task-1" target="_blank" rel="noopener noreferrer">once0626/CyberSecurity-Internship-Task-1</a>
+                </div>
+                <div class="desc">Understanding Cyber Security Basics &amp; Attack Surface</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/once0626/CyberSecurity-Internship-Task-1</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">028</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/MaxBrandon6989/MaxChiChung" target="_blank" rel="noopener noreferrer">MaxBrandon6989/MaxChiChung</a>
+                </div>
+                <div class="desc">Information Systems Student at UTAR | Aspiring Systems Auditor &amp; Cybersecurity Enthusiast | Focus on XAI in FinTech.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/MaxBrandon6989/MaxChiChung</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">029</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/entorpecimiento/entorpecimiento" target="_blank" rel="noopener noreferrer">entorpecimiento/entorpecimiento</a>
+                </div>
+                <div class="desc">Personal profile of a B.S. in Programming student focused on full-stack development and cybersecurity.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/entorpecimiento/entorpecimiento</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">030</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/RenaudRabusseau/RenaudRabusseau" target="_blank" rel="noopener noreferrer">RenaudRabusseau/RenaudRabusseau</a>
+                </div>
+                <div class="desc">Personal profile and portfolio of Renaud Rabusseau. Overview of my journey into Cybersecurity and Offensive Security.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/RenaudRabusseau/RenaudRabusseau</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">031</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Bragaart/CYBERSECURITY-OPERATIONS-CENTER-SOC-SIMULATION-LAB" target="_blank" rel="noopener noreferrer">Bragaart/CYBERSECURITY-OPERATIONS-CENTER-SOC-SIMULATION-LAB</a>
+                </div>
+                <div class="desc">Ambiente controlado para monitoramento de eventos de segurança, triagem de incidentes e análise de logs.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/Bragaart/CYBERSECURITY-OPERATIONS-CENTER-SOC-SIMULATION-LAB</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">032</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/sashiprabhaktk/Cyber_with_KT" target="_blank" rel="noopener noreferrer">sashiprabhaktk/Cyber_with_KT</a>
+                </div>
+                <div class="desc">Professional Cybersecurity Portfolio showcasing expertise in offensive security, penetration testing operations, and interactive hacking-themed web design.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/sashiprabhaktk/Cyber_with_KT</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">033</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/RnKanyanga/Code-Development-with-GitHub" target="_blank" rel="noopener noreferrer">RnKanyanga/Code-Development-with-GitHub</a>
+                </div>
+                <div class="desc">We will be exploring Code Development in Python for Cybersecurity, Artificial Intelligence (AI) and Machine Learning (ML).</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/RnKanyanga/Code-Development-with-GitHub</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">034</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/dhruva127/Bug-Bounty-Automation" target="_blank" rel="noopener noreferrer">dhruva127/Bug-Bounty-Automation</a>
+                </div>
+                <div class="desc">Bug-Bounty-Automation is a Bash-based automated reconnaissance framework designed for bug bounty hunters, red teamers, and cybersecurity learners.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 1</span>
+                  <span class="mono">https://github.com/dhruva127/Bug-Bounty-Automation</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">035</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/JAMSHEDKHOSA57/CyberLens" target="_blank" rel="noopener noreferrer">JAMSHEDKHOSA57/CyberLens</a>
+                </div>
+                <div class="desc">URL and File Scanner Cybersecurity Project</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/JAMSHEDKHOSA57/CyberLens</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">036</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Voltsparx/NumBreacher" target="_blank" rel="noopener noreferrer">Voltsparx/NumBreacher</a>
+                </div>
+                <div class="desc">NumBreacher is a cybersecurity OSINT and telecom reconnaissance tool designed to analyze phone numbers safely and ethically.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Voltsparx/NumBreacher</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">037</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/CodeWhizAnu/QGuard" target="_blank" rel="noopener noreferrer">CodeWhizAnu/QGuard</a>
+                </div>
+                <div class="desc">A real-time AI-powered cybersecurity tool to detect malicious QR codes and phishing URLs using Computer Vision and Machine Learning.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/CodeWhizAnu/QGuard</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">038</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/systemadminbdofficials/sourcecode-BOT_STE-LER-" target="_blank" rel="noopener noreferrer">systemadminbdofficials/sourcecode-BOT_STE-LER-</a>
+                </div>
+                <div class="desc">A cybersecurity awareness and educational lab project that demonstrates how insecure systems can be exploited, with the goal of improving defensive security knowledge and ethical hacking skills.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/systemadminbdofficials/sourcecode-BOT_STE-LER-</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">039</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/sastraadiwiguna-purpleeliteteaming/Purple-Elite-Teaming-RCE-Unrestricted-DeepDive-Holistic-Framework" target="_blank" rel="noopener noreferrer">sastraadiwiguna-purpleeliteteaming/Purple-Elite-Teaming-RCE-Unrestricted-DeepDive-Holistic-Framework</a>
+                </div>
+                <div class="desc">[UNRESTRICTED] 100% Deterministic Technical Analysis of Remote Code Execution (RCE). Root Cause Breakdown, Gadget Chains, Memory-Level Evasion (Hell&#x27;s Gate), and Absolute Mitigation Blueprints for Enterprise Hardening. Lead by SASTRA_ADI_WIGUNA.  Topics / Tags: rce-exploitation purple-teaming cybersecurity-research vulnerability-analysis log4shell</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/sastraadiwiguna-purpleeliteteaming/Purple-Elite-Teaming-RCE-Unrestricted-DeepDive-Holistic-Framework</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">040</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/samay825/WhatsApp-Network-Tracker" target="_blank" rel="noopener noreferrer">samay825/WhatsApp-Network-Tracker</a>
+                </div>
+                <div class="desc">A legal, PyQt6-based cybersecurity dashboard for consent-based network traffic analysis on Windows. Captures packet metadata only (IPs, ports, protocols) with filter-driven monitoring and IP tracking - no decryption or MITM. Intended for educational, debugging, and defensive security use on authorized systems only.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/samay825/WhatsApp-Network-Tracker</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">041</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/KiShOrE-2008/Password_Checker" target="_blank" rel="noopener noreferrer">KiShOrE-2008/Password_Checker</a>
+                </div>
+                <div class="desc">Advanced password strength checker using entropy analysis, pattern detection, crack-time estimation, and secure PBKDF2 hashing in Python.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/KiShOrE-2008/Password_Checker</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">042</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Saorsa-Ind/DISA-STIG-Patch-Cycle-Analyzer" target="_blank" rel="noopener noreferrer">Saorsa-Ind/DISA-STIG-Patch-Cycle-Analyzer</a>
+                </div>
+                <div class="desc">Standalone, offline Python tool for parsing DISA STIG XCCDF manuals, generating patch-cycle deltas, integrity-checked datasets, and executive-level summaries for regulated environments.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Saorsa-Ind/DISA-STIG-Patch-Cycle-Analyzer</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">043</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/notsointresting/alert2action" target="_blank" rel="noopener noreferrer">notsointresting/alert2action</a>
+                </div>
+                <div class="desc">🚨 Transform security alerts into SOC investigation guides with MITRE ATT&amp;CK mapping, investigation commands, and containment playbooks</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/notsointresting/alert2action</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">044</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ShaneYeung-Cyber/Personal-SOC-Lab-T-Pot-CE-" target="_blank" rel="noopener noreferrer">ShaneYeung-Cyber/Personal-SOC-Lab-T-Pot-CE-</a>
+                </div>
+                <div class="desc">Personal SOC lab using T-Pot CE on AWS to analyze real-world attack telemetry through Honeypots, Suricata, and offline log analysis</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/ShaneYeung-Cyber/Personal-SOC-Lab-T-Pot-CE-</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">045</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/2dxKIRA/KIRA-TOOL" target="_blank" rel="noopener noreferrer">2dxKIRA/KIRA-TOOL</a>
+                </div>
+                <div class="desc">BEST FREE MULTI TOOL EVER !</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/2dxKIRA/KIRA-TOOL</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">046</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/HOZAIFAN/Advanced-SQLi-Scanner-" target="_blank" rel="noopener noreferrer">HOZAIFAN/Advanced-SQLi-Scanner-</a>
+                </div>
+                <div class="desc">&quot;Advanced SQL Injection Automation Framework for Bug Bounty &amp; Pentesting&quot;</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/HOZAIFAN/Advanced-SQLi-Scanner-</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">047</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/igbuend/grimbard" target="_blank" rel="noopener noreferrer">igbuend/grimbard</a>
+                </div>
+                <div class="desc">A repository of security related skills - like secure code review and pentesting - for Claude and other AI.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/igbuend/grimbard</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">048</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/samtarun-pixel/Enterprise-Active-Directory-Penetration-Test-Full-Domain-Compromise" target="_blank" rel="noopener noreferrer">samtarun-pixel/Enterprise-Active-Directory-Penetration-Test-Full-Domain-Compromise</a>
+                </div>
+                <div class="desc">Simulated enterprise internal pentest resulting in full Active Directory domain compromise, including enumeration,  privilege escalation, lateral movement, and professional reporting.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/samtarun-pixel/Enterprise-Active-Directory-Penetration-Test-Full-Domain-Compromise</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">049</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/samtarun-pixel/External-Web-Breach-to-Full-Active-Directory-Compromise-Enterprise-Attack-Simulation" target="_blank" rel="noopener noreferrer">samtarun-pixel/External-Web-Breach-to-Full-Active-Directory-Compromise-Enterprise-Attack-Simulation</a>
+                </div>
+                <div class="desc">Conducted an end-to-end enterprise breach simulation from external web exploitation to internal pivoting and full Active Directory takeover, delivering a professional pentest report with risk and remediation.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/samtarun-pixel/External-Web-Breach-to-Full-Active-Directory-Compromise-Enterprise-Attack-Simulation</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">050</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/diljith369/TheRustSecEngineeringHandbook" target="_blank" rel="noopener noreferrer">diljith369/TheRustSecEngineeringHandbook</a>
+                </div>
+                <div class="desc">Rust Security Engineering and Offensive Tooling</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/diljith369/TheRustSecEngineeringHandbook</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">051</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/aleztech/gambit-recon" target="_blank" rel="noopener noreferrer">aleztech/gambit-recon</a>
+                </div>
+                <div class="desc">GAMBIT is an offensive attack surface reconnaissance platform that maps exposed domains, subdomains, IPs, web technologies and weakly exposed endpoints, designed for OPSEC-friendly recon on owned or authorized assets.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/aleztech/gambit-recon</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">052</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/realcathode/shadow-pam" target="_blank" rel="noopener noreferrer">realcathode/shadow-pam</a>
+                </div>
+                <div class="desc">Proof of Concept demonstrating Linux authentication bypass via PAM conversation hooking.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/realcathode/shadow-pam</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">053</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Sukoed/web3-security-toolkit" target="_blank" rel="noopener noreferrer">Sukoed/web3-security-toolkit</a>
+                </div>
+                <div class="desc">A comprehensive framework for smart contract auditing, vulnerability scanning, and security best practices for EVM-compatible chains (Base, Ethereum, Optimism)</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Sukoed/web3-security-toolkit</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">054</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Rohit-Rauniyar01/OmniScan" target="_blank" rel="noopener noreferrer">Rohit-Rauniyar01/OmniScan</a>
+                </div>
+                <div class="desc">OMNISCAN is a comprehensive, multi-threaded security testing tool designed for web applications and APIs. Built for educational purposes and authorized security testing</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Rohit-Rauniyar01/OmniScan</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">055</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ankitmoradiya/API-Hunter" target="_blank" rel="noopener noreferrer">ankitmoradiya/API-Hunter</a>
+                </div>
+                <div class="desc">🎯 A powerful API reconnaissance and documentation tool for security testing. Discovers hidden endpoints via Wayback Machine, CommonCrawl, and JS parsing. Generates OpenAPI/Swagger &amp; Postman collections for automated security analysis.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/ankitmoradiya/API-Hunter</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">056</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/9M6/vulnsink" target="_blank" rel="noopener noreferrer">9M6/vulnsink</a>
+                </div>
+                <div class="desc">A CLI tool that wraps SAST scanners and uses LLMs to filter false positives and automatically fix security issues.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/9M6/vulnsink</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">057</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Akshat-cs/realtime-liquidity-drain-detector" target="_blank" rel="noopener noreferrer">Akshat-cs/realtime-liquidity-drain-detector</a>
+                </div>
+                <div class="desc">Real-time DeFi security tool that monitors DEX pools to detect liquidity drains. Python-based with web dashboard for instant alerts.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Akshat-cs/realtime-liquidity-drain-detector</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">058</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Yenn503/PRISM" target="_blank" rel="noopener noreferrer">Yenn503/PRISM</a>
+                </div>
+                <div class="desc">PRISM - Penetration &amp; Red-team Intelligence Security Module. Autonomous AI-powered red team framework with multi-agent orchestration, Strix-like TUI, and Docker-isolated tool execution.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Yenn503/PRISM</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">059</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ryanzhou147/Hawking.ai" target="_blank" rel="noopener noreferrer">ryanzhou147/Hawking.ai</a>
+                </div>
+                <div class="desc">Nexhacks EMG Hardware Hack</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/ryanzhou147/Hawking.ai</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">060</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Rafus0621/Bodycam-adventure-2026" target="_blank" rel="noopener noreferrer">Rafus0621/Bodycam-adventure-2026</a>
+                </div>
+                <div class="desc">Bodycam Hack Mod Menu 2026 | Infinite Health Ammo God Mode Instant Kill Aimbot ESP | Bodycam Cheats January 2026</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Rafus0621/Bodycam-adventure-2026</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">061</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/rodrixc982/Level-Zero-Extraction-One-Shot" target="_blank" rel="noopener noreferrer">rodrixc982/Level-Zero-Extraction-One-Shot</a>
+                </div>
+                <div class="desc">Level Zero Extraction hack 2026 | Infinite Health Ammo God Mode One-Shot Teleport ESP | Level Zero Extraction Cheats Full Game January 2026</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/rodrixc982/Level-Zero-Extraction-One-Shot</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">062</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Subhankausar/Diablo-IV" target="_blank" rel="noopener noreferrer">Subhankausar/Diablo-IV</a>
+                </div>
+                <div class="desc">Diablo IV Hack Bot 2026 | Unlimited Gold Health God Mode Instant Level One-Shot Bosses | Diablo 4 Cheats Season 7 January 2026</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/Subhankausar/Diablo-IV</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">063</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/rodrixc982/dead-by-daylight-2026" target="_blank" rel="noopener noreferrer">rodrixc982/dead-by-daylight-2026</a>
+                </div>
+                <div class="desc">Dead by Daylight Hack Mod Menu 2026 | Unlimited Bloodpoints Health One-Shot Hooks Instant Mori Unlock all | DBD Cheats Full Game January 2026</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/rodrixc982/dead-by-daylight-2026</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">064</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/VortexProtocol765/Heroes-of-the-Storm-for-MOBA-domination" target="_blank" rel="noopener noreferrer">VortexProtocol765/Heroes-of-the-Storm-for-MOBA-domination</a>
+                </div>
+                <div class="desc">Heroes of the Storm Hack 2026 — God Mode · One-Hit Kill · ESP · Unlock All Heroes/Skins · Infinite Gold | Undetected mod menu for MOBA domination</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/VortexProtocol765/Heroes-of-the-Storm-for-MOBA-domination</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">065</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/3lprox/NatiTube" target="_blank" rel="noopener noreferrer">3lprox/NatiTube</a>
+                </div>
+                <div class="desc">NatiTube is a lightweight script designed to replace the standard YouTube web player with the native system player on iOS and Android devices. It enables native Picture-in-Picture, system-level gesture controls, and improved performance by bypassing the mobile web interface restrictions. Compatible with iOS Shortcuts and InjecThor.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/3lprox/NatiTube</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">066</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/SANJAIRATHINAM-R/DRAGON-BYTE-Phishing-Tool" target="_blank" rel="noopener noreferrer">SANJAIRATHINAM-R/DRAGON-BYTE-Phishing-Tool</a>
+                </div>
+                <div class="desc">DRAGON BYTE is an open source,automated phishing tool</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/SANJAIRATHINAM-R/DRAGON-BYTE-Phishing-Tool</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">067</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/coderJJJ6767/Blooket-Hacks-GUI-2" target="_blank" rel="noopener noreferrer">coderJJJ6767/Blooket-Hacks-GUI-2</a>
+                </div>
+                <div class="desc">These hacks are being tested constantly some are kinda broken but I try to fix them instructions to use them: 1. Copy the code  2. Make a bookmark  3. Go to bookmarks and then edit them  4. Paste the code into the URL 5. Press the save button 6. Go to Blooket.com  7. Press the bookmark  8. Then you are done! Use them to have fun!</div>
+                <div class="meta">
+                  <span class="pill">⭐ 2</span>
+                  <span class="mono">https://github.com/coderJJJ6767/Blooket-Hacks-GUI-2</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">068</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Iankulani/accurate-spider-bot-v0.0.1" target="_blank" rel="noopener noreferrer">Iankulani/accurate-spider-bot-v0.0.1</a>
+                </div>
+                <div class="desc">accurate-spider-bot-v0.0.1 is an advanced, modular cybersecurity spider bot designed to help users troubleshoot, monitor, analyze, and respond to network-based cyber threats in real time.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/Iankulani/accurate-spider-bot-v0.0.1</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">069</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/xonoxitron/polymorph" target="_blank" rel="noopener noreferrer">xonoxitron/polymorph</a>
+                </div>
+                <div class="desc">🛡️ Open-source APE, Zig, and WASM polyglot malware detector. Catch cross-platform threats that evade AV. ⚡</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/xonoxitron/polymorph</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">070</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Usergh0st/Gh0stFramework" target="_blank" rel="noopener noreferrer">Usergh0st/Gh0stFramework</a>
+                </div>
+                <div class="desc">The Gh0stFramework script will make your life easier and, of course, faster because it is a suite of several scripts to do different things on the system such as maintenance, hacking, pentesting, and other things.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/Usergh0st/Gh0stFramework</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">071</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/g-clef/SAT-skill" target="_blank" rel="noopener noreferrer">g-clef/SAT-skill</a>
+                </div>
+                <div class="desc">Claude Skill to run Structured Analytic Techniques for infosec investigations</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/g-clef/SAT-skill</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">072</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ToastyToast25/claude-code-dart-flutter" target="_blank" rel="noopener noreferrer">ToastyToast25/claude-code-dart-flutter</a>
+                </div>
+                <div class="desc">Claude Code agent system for Dart/Flutter development - 34 agents, 29 skills, templates, hooks, and security tools</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/ToastyToast25/claude-code-dart-flutter</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">073</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/chetanngavali/EVIL_TWINS_ESP8266" target="_blank" rel="noopener noreferrer">chetanngavali/EVIL_TWINS_ESP8266</a>
+                </div>
+                <div class="desc">Evil Twin ESP8266 is a state-of-the-art, feature-rich penetration testing tool designed for the ESP8266 platform. It allows security researchers to simulate an &quot;Evil Twin&quot; attack to audit the security awareness of wireless users.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/chetanngavali/EVIL_TWINS_ESP8266</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">074</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/roomkangali/dashboard-report-dlh" target="_blank" rel="noopener noreferrer">roomkangali/dashboard-report-dlh</a>
+                </div>
+                <div class="desc">Dashboard Report Droid-LLM-Hunter is a specialized web interface designed to visualize and manage security analysis reports generated by the Droid-LLM-Hunter tool</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/roomkangali/dashboard-report-dlh</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">075</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/logic0x01/smtp-enum" target="_blank" rel="noopener noreferrer">logic0x01/smtp-enum</a>
+                </div>
+                <div class="desc">SMTP-Enum is a lightweight, high-speed Python 3 tool designed for security researchers and penetration testers to identify valid users on a target mail server. It leverages the SMTP VRFY command to query the server and determine if a specific username exists.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/logic0x01/smtp-enum</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">076</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Khokhar295/CSF-Net-Hunter-v1" target="_blank" rel="noopener noreferrer">Khokhar295/CSF-Net-Hunter-v1</a>
+                </div>
+                <div class="desc">An ESP32 based WiFi Scanner and Analyzer for Ethical Hacking and Network Testing.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/Khokhar295/CSF-Net-Hunter-v1</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">077</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/abhishek9100/Hytale-Infinite-2026" target="_blank" rel="noopener noreferrer">abhishek9100/Hytale-Infinite-2026</a>
+                </div>
+                <div class="desc">Hytale Hack 2026 — Infinite Resources · God Mode · Fly · Unlock All Items · One-Hit Kill | cheat mod menu for ultimate sandbox building</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/abhishek9100/Hytale-Infinite-2026</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">078</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Cyber-specterz/Quickstrike-v2" target="_blank" rel="noopener noreferrer">Cyber-specterz/Quickstrike-v2</a>
+                </div>
+                <div class="desc">About QuickStrike v2 is a fast, lightweight, multi-threaded reconnaissance and port scanning tool designed for ethical hackers and bug bounty hunters. It provides efficient target discovery, service identification, and basic banner grabbing with clean CLI output, making it ideal for learning and real-world recon workflows</div>
+                <div class="meta">
+                  <span class="pill">⭐ 3</span>
+                  <span class="mono">https://github.com/Cyber-specterz/Quickstrike-v2</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">079</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Iankulani/accurate-spider-bot-v0.0.2" target="_blank" rel="noopener noreferrer">Iankulani/accurate-spider-bot-v0.0.2</a>
+                </div>
+                <div class="desc">accurate-spider-bot v0.0.2 is an enhanced version of the Accurate Spider Bot cybersecurity platform, designed to provide deeper visibility into network behavior and traffic patterns.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 4</span>
+                  <span class="mono">https://github.com/Iankulani/accurate-spider-bot-v0.0.2</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">080</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/klsdfernando/VoidTunnel" target="_blank" rel="noopener noreferrer">klsdfernando/VoidTunnel</a>
+                </div>
+                <div class="desc">A powerful Linux VPN/Proxy client (GUI) built with Python &amp; PyQt6. Uses Xray-core for VMess, VLESS, Trojan, Shadowsocks &amp; SSH connections. Features payload injection &amp; real-time stats.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 4</span>
+                  <span class="mono">https://github.com/klsdfernando/VoidTunnel</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">081</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/dinhquan/claude-ios-toolkit" target="_blank" rel="noopener noreferrer">dinhquan/claude-ios-toolkit</a>
+                </div>
+                <div class="desc">A concise toolkit of Claude Code agents, rules, commands, and skills tailored for modern iOS development—covering Swift/SwiftUI architecture, testing, security, performance, and build/release workflows.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 4</span>
+                  <span class="mono">https://github.com/dinhquan/claude-ios-toolkit</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">082</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/nirholas/ethereum-wallet-toolkit" target="_blank" rel="noopener noreferrer">nirholas/ethereum-wallet-toolkit</a>
+                </div>
+                <div class="desc">Python toolkit for Ethereum wallets: CLI tools + Model Context Protocol (MCP) servers for wallet generation, BIP39/BIP44 HD wallets, Web3 Secret Storage V3 keystores, and EIP-712 typed data signing</div>
+                <div class="meta">
+                  <span class="pill">⭐ 4</span>
+                  <span class="mono">https://github.com/nirholas/ethereum-wallet-toolkit</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">083</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/canyouhack-org/cyh-terminal" target="_blank" rel="noopener noreferrer">canyouhack-org/cyh-terminal</a>
+                </div>
+                <div class="desc">Web terminal with isolated Docker containers for pentesting</div>
+                <div class="meta">
+                  <span class="pill">⭐ 5</span>
+                  <span class="mono">https://github.com/canyouhack-org/cyh-terminal</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">084</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/BenzoXdev/OXIL_STEALER" target="_blank" rel="noopener noreferrer">BenzoXdev/OXIL_STEALER</a>
+                </div>
+                <div class="desc">Next-Gen Stealer written in Go. Stealing from Discord, Chromium-Based &amp; Firefox-Based Browsers, Crypto Wallets and more, from every user on every disk. (PoC. For educational purposes only)</div>
+                <div class="meta">
+                  <span class="pill">⭐ 5</span>
+                  <span class="mono">https://github.com/BenzoXdev/OXIL_STEALER</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">085</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/nushackers/hnr26-badge-quacknroll" target="_blank" rel="noopener noreferrer">nushackers/hnr26-badge-quacknroll</a>
+                </div>
+                <div class="desc">Hack&amp;Roll 2026 &quot;Quack &amp; Roll&quot; badge source files, for both hardware and firmware</div>
+                <div class="meta">
+                  <span class="pill">⭐ 5</span>
+                  <span class="mono">https://github.com/nushackers/hnr26-badge-quacknroll</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">086</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/HackingLZ/AgentProvocateur" target="_blank" rel="noopener noreferrer">HackingLZ/AgentProvocateur</a>
+                </div>
+                <div class="desc">For testing or trolling LLM based pentesting frameworks</div>
+                <div class="meta">
+                  <span class="pill">⭐ 6</span>
+                  <span class="mono">https://github.com/HackingLZ/AgentProvocateur</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">087</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/ctkqiang/QianKunQuan" target="_blank" rel="noopener noreferrer">ctkqiang/QianKunQuan</a>
+                </div>
+                <div class="desc">乾坤圈 (QianKunQuan) 是一款功能强大的网络安全扫描工具，专为渗透测试人员、安全研究人员和系统管理员设计。它结合了高效端口扫描、服务识别、版本检测和CVE漏洞关联等核心功能，帮助您快速评估目标系统的安全状况。</div>
+                <div class="meta">
+                  <span class="pill">⭐ 7</span>
+                  <span class="mono">https://github.com/ctkqiang/QianKunQuan</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">088</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/LongWeihan/Turbo-Softmax" target="_blank" rel="noopener noreferrer">LongWeihan/Turbo-Softmax</a>
+                </div>
+                <div class="desc">A blazing fast, header-only Softmax implementation in C using 5th-order polynomial approximation and IEEE 754 bit-hacking. Optimized for embedded systems and edge AI.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 7</span>
+                  <span class="mono">https://github.com/LongWeihan/Turbo-Softmax</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">089</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/amitgy/seccheckmate" target="_blank" rel="noopener noreferrer">amitgy/seccheckmate</a>
+                </div>
+                <div class="desc">Offline security checklist &amp; report generator</div>
+                <div class="meta">
+                  <span class="pill">⭐ 9</span>
+                  <span class="mono">https://github.com/amitgy/seccheckmate</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">090</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/iblu23/IBLU_KALIGPTWITHMCP" target="_blank" rel="noopener noreferrer">iblu23/IBLU_KALIGPTWITHMCP</a>
+                </div>
+                <div class="desc">IBLU Professional Hacking Assistant - AI-Powered Cybersecurity Platform</div>
+                <div class="meta">
+                  <span class="pill">⭐ 10</span>
+                  <span class="mono">https://github.com/iblu23/IBLU_KALIGPTWITHMCP</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">091</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/miunasu/IDA-Skill" target="_blank" rel="noopener noreferrer">miunasu/IDA-Skill</a>
+                </div>
+                <div class="desc">使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro</div>
+                <div class="meta">
+                  <span class="pill">⭐ 10</span>
+                  <span class="mono">https://github.com/miunasu/IDA-Skill</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">092</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/omonien/DX.HttpDiag" target="_blank" rel="noopener noreferrer">omonien/DX.HttpDiag</a>
+                </div>
+                <div class="desc">HTTPS URL diagnostic command-line tool for Windows - Certificate analysis, DNS resolution, proxy detection</div>
+                <div class="meta">
+                  <span class="pill">⭐ 10</span>
+                  <span class="mono">https://github.com/omonien/DX.HttpDiag</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">093</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Ilias1988/ReverseShell-Generator" target="_blank" rel="noopener noreferrer">Ilias1988/ReverseShell-Generator</a>
+                </div>
+                <div class="desc">Educational reverse shell command generator for authorized lab testing.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 11</span>
+                  <span class="mono">https://github.com/Ilias1988/ReverseShell-Generator</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">094</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/alhamrizvi-cloud/urlx" target="_blank" rel="noopener noreferrer">alhamrizvi-cloud/urlx</a>
+                </div>
+                <div class="desc">Multi-source URL discovery &amp; live host probing for bug bounty and red team recon</div>
+                <div class="meta">
+                  <span class="pill">⭐ 18</span>
+                  <span class="mono">https://github.com/alhamrizvi-cloud/urlx</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">095</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/gatekit-ai/gatekit" target="_blank" rel="noopener noreferrer">gatekit-ai/gatekit</a>
+                </div>
+                <div class="desc">A hackable Model Context Protocol (MCP) gateway</div>
+                <div class="meta">
+                  <span class="pill">⭐ 23</span>
+                  <span class="mono">https://github.com/gatekit-ai/gatekit</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">096</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Chocapikk/pgread" target="_blank" rel="noopener noreferrer">Chocapikk/pgread</a>
+                </div>
+                <div class="desc">Read PostgreSQL data files without credentials - forensics, data recovery, and security research tool</div>
+                <div class="meta">
+                  <span class="pill">⭐ 30</span>
+                  <span class="mono">https://github.com/Chocapikk/pgread</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">097</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/cyb3rint3l-labs/ServerSecurityAudit" target="_blank" rel="noopener noreferrer">cyb3rint3l-labs/ServerSecurityAudit</a>
+                </div>
+                <div class="desc">PowerShell-based Windows Server Security Audit Engine by Cyb3rint3l Labs. Measures alignment with the NIS2 directive and maps findings to MITRE ATT&amp;CK tactics &amp; CIS Controls v8 practices. Generates interactive HTML dashboards &amp; structured JSON datasets.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 33</span>
+                  <span class="mono">https://github.com/cyb3rint3l-labs/ServerSecurityAudit</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">098</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/SpectrixDev/DIY_WhisperPair" target="_blank" rel="noopener noreferrer">SpectrixDev/DIY_WhisperPair</a>
+                </div>
+                <div class="desc">Hijacking Bluetooth Accessories Using Google Fast Pair: WhisperPair CVE-2025-36911 Reference Implementation &amp; Vulnerability Verification Toolkit</div>
+                <div class="meta">
+                  <span class="pill">⭐ 35</span>
+                  <span class="mono">https://github.com/SpectrixDev/DIY_WhisperPair</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">099</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/Otsmane-Ahmed/sliver-tor-bridge" target="_blank" rel="noopener noreferrer">Otsmane-Ahmed/sliver-tor-bridge</a>
+                </div>
+                <div class="desc">Tor transport bridge for Sliver C2 - anonymous command and control</div>
+                <div class="meta">
+                  <span class="pill">⭐ 41</span>
+                  <span class="mono">https://github.com/Otsmane-Ahmed/sliver-tor-bridge</span>
+                </div>
+              </td>
+            </tr>
+<tr>
+              <td class="rank">100</td>
+              <td class="project">
+                <div class="name">
+                  <a href="https://github.com/zalexdev/wpair-app" target="_blank" rel="noopener noreferrer">zalexdev/wpair-app</a>
+                </div>
+                <div class="desc">WPair is a defensive security research tool that demonstrates the CVE-2025-36911 (eg WhisperPair) vulnerability in Google&#x27;s Fast Pair protocol. This vulnerability affects millions of Bluetooth audio devices worldwide, allowing unauthorized pairing and potential microphone access without user consent.</div>
+                <div class="meta">
+                  <span class="pill">⭐ 443</span>
+                  <span class="mono">https://github.com/zalexdev/wpair-app</span>
+                </div>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <div><strong>Note:</strong> Automated weekly snapshot. Links are provided for convenience and do not constitute endorsement.</div>
+    </footer>
+  </div>
+
+  <script>
+    (function() {
+      const input = document.getElementById('search');
+      const tbody = document.getElementById('rows');
+      const count = document.getElementById('count');
+      const trs = Array.from(tbody.querySelectorAll('tr'));
+
+      function update() {
+        const q = (input.value || '').trim().toLowerCase();
+        let visible = 0;
+
+        for (const tr of trs) {
+          const text = tr.textContent.toLowerCase();
+          const show = !q || text.includes(q);
+          tr.classList.toggle('hidden', !show);
+          if (show) visible++;
+        }
+
+        count.textContent = visible + " / " + trs.length + " shown";
+      }
+
+      input.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>
