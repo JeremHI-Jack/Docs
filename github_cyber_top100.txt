@@ -1,408 +1,408 @@
 == github cyber top ==
-generated_at: 2026-01-19T11:58:12Z
-days_back: 30
+generated_at: 2026-01-23T09:16:12Z
+days_back: 7
 keywords: cybersecurity, pentest, offensive, redteam, blue team, defensive, infosec, security tool, hacking
-fetched_raw: 2403
-unique_with_description: 1875
+fetched_raw: 1428
+unique_with_description: 1135
 top_n: 100
 
-001. Sarakimz/go-secrets-scanner (8⭐)
-     https://github.com/Sarakimz/go-secrets-scanner
-     🔍 Scan files for secrets, hashes, and high-entropy strings with go-secrets-scanner. Detect potential leaks and enhance security in your projects.
+001. AymanLakhnati/Robust-and-Explainable-Intrusion-Detection-Under-Distribution-Shift-in-Network-Telemetry (1⭐)
+     https://github.com/AymanLakhnati/Robust-and-Explainable-Intrusion-Detection-Under-Distribution-Shift-in-Network-Telemetry
+     Cybersecurity research project
 
-002. rasidi3112/Quantum-crypto (8⭐)
-     https://github.com/rasidi3112/Quantum-crypto
-     Educational project exploring quantum computing threats to RSA encryption, Shor's Algorithm, and post-quantum cryptography solutions (NIST FIPS 203/204/205). Built with Python and Qiskit.
+002. AymanLakhnati/From-CVSS-to-Actually-Reachable-Dependency-Vulnerability-Prioritization-for-Modern-Codebases (1⭐)
+     https://github.com/AymanLakhnati/From-CVSS-to-Actually-Reachable-Dependency-Vulnerability-Prioritization-for-Modern-Codebases
+     Cybersecurity research project
 
-003. ugurrates/Blue-Team-Assistant (8⭐)
-     https://github.com/ugurrates/Blue-Team-Assistant
-     LLM supported Toolkit for Blue Team/ SOC Operations
+003. EdrianHernandez/Sentinel-Cyberdash (1⭐)
+     https://github.com/EdrianHernandez/Sentinel-Cyberdash
+     Cybersecurity Threat Detection Dashboard
 
-004. h3air1/H3-DirFuzzer (8⭐)
-     https://github.com/h3air1/H3-DirFuzzer
-     A website designed for pentesters to search for hidden directories
+004. Arthurfert/SecLLM-Gen (1⭐)
+     https://github.com/Arthurfert/SecLLM-Gen
+     Offensive & Defensive cybersecurity LLM application
 
-005. hardw00t/ai-security-arsenal (8⭐)
-     https://github.com/hardw00t/ai-security-arsenal
-     A collection of skills, agents, commands, and workflows for security researchers. Compatible with Claude Code, Claude Desktop, OpenCode, and other AI coding tools.
+005. HChristopherNaoyuki/cybersecurity-chatbot-cs (1⭐)
+     https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs
+     PROG6221 POE: Cybersecurity Awareness Chatbot
 
-006. mrwhite4939/DomainRecon (8⭐)
-     https://github.com/mrwhite4939/DomainRecon
-     DomainRecon is a lightweight PHP tool for domain reconnaissance, security analysis, and information gathering.
+006. Vikramgadam/cybersecurity-projects (1⭐)
+     https://github.com/Vikramgadam/cybersecurity-projects
+     A hands-on cybersecurity projects repository
 
-007. dodal-omkar/slayer-apis-scanner (8⭐)
-     https://github.com/dodal-omkar/slayer-apis-scanner
-     Slayer APIKeys Scanner is a focused security assessment tool designed to detect misconfigured, overly permissive, or abusable Google API keys by validating real-world access across multiple Google services.
+007. HChristopherNaoyuki/cybersecurity-chatbot-cs-final (1⭐)
+     https://github.com/HChristopherNaoyuki/cybersecurity-chatbot-cs-final
+     PROG6221 POE: Cybersecurity Awareness Chatbot Final
 
-008. rendgentmars/bytemd (8⭐)
-     https://github.com/rendgentmars/bytemd
-     A hackable Markdown editor component
+008. mahadzulfiqar/XSS-Vulnerability-Report (1⭐)
+     https://github.com/mahadzulfiqar/XSS-Vulnerability-Report
+     Cybersecurity lab project - XSS testing on DVWA
 
-009. mullistleli1971/rust-internal-hack (8⭐)
-     https://github.com/mullistleli1971/rust-internal-hack
-     rust internal hack latest version download here - https://projectsoft.space/ .  rust- rust-menu rust-mod
+009. gee44njuguna/Digital_detective_254- (1⭐)
+     https://github.com/gee44njuguna/Digital_detective_254-
+     A bot with cybersecurity and criminology tactics
 
-010. Quasolaris/Hacked-for-Nuclear-War (8⭐)
-     https://github.com/Quasolaris/Hacked-for-Nuclear-War
-     Hacked for Nuclear war is a little game written in Bash, that makes you investigate simple logs in search for Indicators of Compromise (IoC) that you get from the MITRE | ATT&CK collection.
+010. Polawat14/Proj3k_CyberSecurityWeb (1⭐)
+     https://github.com/Polawat14/Proj3k_CyberSecurityWeb
+     Cybersecurity_Website Project
 
-011. KenzCybSec/KenzMultiTools (9⭐)
-     https://github.com/KenzCybSec/KenzMultiTools
-     Educational cybersecurity tool with Discord utilities, token generators, network tools and more
+011. khaoszephyr/Cybersecurity-Homelab (1⭐)
+     https://github.com/khaoszephyr/Cybersecurity-Homelab
+     This repository documents my personal cybersecurity home lab used to practice virtualization, network segmentation, Win server administration, security monitoring and attack simulation
 
-012. cybertask/ctf-writeups (9⭐)
-     https://github.com/cybertask/ctf-writeups
-     🚩 CTF writeups and cybersecurity challenge solutions by CyberTask - Web, Pwn, Crypto, Forensics, Reverse Engineering
+012. anandkumarbind798/hacker-login (1⭐)
+     https://github.com/anandkumarbind798/hacker-login
+     Cybersecurity themed hacker-style login page UI (HTML, CSS, JavaScript)
 
-013. frangelbarrera/Network-Scanner (9⭐)
-     https://github.com/frangelbarrera/Network-Scanner
-     An AI-powered network scanning platform for automated vulnerability assessment and penetration testing. Combines traditional security tools with intelligent analysis for comprehensive reconnaissance, risk assessment, and professional reporting.
+013. cyberdudebivash/mcp-server (1⭐)
+     https://github.com/cyberdudebivash/mcp-server
+     CYBERDUDEBIVASH Autonomous Zero-Trust AI Cybersecurity Command Center (MCP Server)
 
-014. jahanzaibahmad112-dotcom/UAIP-Protocol (9⭐)
-     https://github.com/jahanzaibahmad112-dotcom/UAIP-Protocol
-     The Universal Agent Interoperability Protocol: The TCP/IP of the AI Economy
+014. Abdullah-Akram04/google-cyber-security (1⭐)
+     https://github.com/Abdullah-Akram04/google-cyber-security
+     This repository serves as a structured and professional documentation of my learning journey through the Google Cybersecurity Certificate program — a foundational cybersecurity curriculum designed to build the mindset, technical knowledge, and practical skills required for entry-level cybersecurity and SOC roles.
 
-015. kawaiipantsu/telegramdigger (9⭐)
-     https://github.com/kawaiipantsu/telegramdigger
-     This tool is an implementation of the Telegram Bot API for Linux terminal use. It's ment for quick OSINT and grading useful information or to do things like takedown, destroy or grab messages. Note, this tool is converted from a web-tool I once made to C++ and done so via Claude.
+015. roshansamarasinghe213/Honeypot-For-LMS-with-AI-Powered-Predictive-Analysis (1⭐)
+     https://github.com/roshansamarasinghe213/Honeypot-For-LMS-with-AI-Powered-Predictive-Analysis
+     This is a individual project that combination of Cybersecurity and AI
 
-016. zbruhnke/claude-code-starter (9⭐)
-     https://github.com/zbruhnke/claude-code-starter
-     Production-ready Claude Code configuration template with stack presets, security hooks, and automation tools
+016. AlexWabita/cybersecurity-mastery-2026 (1⭐)
+     https://github.com/AlexWabita/cybersecurity-mastery-2026
+     My structured journey to cybersecurity mastery through hands-on projects and ethical hacking practice
 
-017. Holasyb918/PixelDiT-Hack (9⭐)
-     https://github.com/Holasyb918/PixelDiT-Hack
-     PixelDiT-Hack
+017. VianneyLB/Deepfake_Cybersecurity_Training (1⭐)
+     https://github.com/VianneyLB/Deepfake_Cybersecurity_Training
+     Cybersecurity training PoC simulating social engineering attacks through AI-driven multi-persona meetings. Features role-based orchestration, real-time TTS dialogue, and comprehensive metrics for training effectiveness.
 
-018. Codewith-Fixted/WarCappin (9⭐)
-     https://github.com/Codewith-Fixted/WarCappin
-     WiFi Hacking: Autonomously man in the middle deauthenticate WPA2 wireless networks and packet capture the three way handshake for offline cracking using Kali Linux and a WiFi antenna.
+018. FearThePLOTO/CyberSecurity-Writeups (1⭐)
+     https://github.com/FearThePLOTO/CyberSecurity-Writeups
+     Security research & learning repository -  security tutorials, CTF write-ups, and technical documentation.
 
-019. RawatKartik1411/linux-priv-esc-audit (10⭐)
-     https://github.com/RawatKartik1411/linux-priv-esc-audit
-     🛡️ Audit Linux systems for privilege escalation risks and hardening opportunities in both root and user modes to enhance security and minimize exposure.
+019. E-m-e-k-a/cybersecurity-learning-portfolio (1⭐)
+     https://github.com/E-m-e-k-a/cybersecurity-learning-portfolio
+     Documenting my learning journey with hands-on labs and analysis
 
-020. Jumbo-WJB/pentest-skills (10⭐)
-     https://github.com/Jumbo-WJB/pentest-skills
-     自动化渗透agent skills
+020. ZuriZeal/cybersecurity-lab-journal (1⭐)
+     https://github.com/ZuriZeal/cybersecurity-lab-journal
+     A cybersecurity practice repository documenting labs, projects, and learning. It includes log analysis, SIEM, Linux, SQL, network security, and incident response exercises. Each entry notes goals, tools, steps, findings, and lessons learned, forming a portfolio of cybersecurity skills and growth.
 
-021. yohannesgk/blacksmith (10⭐)
-     https://github.com/yohannesgk/blacksmith
-     BlacksmithAI is an OPEN-SOURCE advanced penetration testing framework that leverages multiple AI agents to automate security assessments. The system orchestrates specialized agents through a complete penetration testing lifecycle, from reconnaissance to post-exploitation using professional security tools in a controlled environment.
+021. yusufvandi/cybersecurity-foundations-portfolio (1⭐)
+     https://github.com/yusufvandi/cybersecurity-foundations-portfolio
+     Structured documentation of my cybersecurity learning, focusing on network security fundamentals, OSI-layer threats, and defensive reasoning.
 
-022. The-Resonance/claude-code-hetzner-vps (10⭐)
-     https://github.com/The-Resonance/claude-code-hetzner-vps
-     Provision secure, Claude Code-ready Hetzner VPS instances for ~$5/month. Free tool by Pete Sena.
+022. andreymsdev/Cyber-Labs-Writeups (1⭐)
+     https://github.com/andreymsdev/Cyber-Labs-Writeups
+     Technical documentation of Cybersecurity challenges, CTF write-ups, and custom security tools.
 
-023. omonien/DX.HttpDiag (10⭐)
+023. abdurrehman-raza/abdurrehman-raza (1⭐)
+     https://github.com/abdurrehman-raza/abdurrehman-raza
+     My GitHub profile README showcasing my learning journey in programming and cybersecurity.
+
+024. sayoalonzo2-hue/Simple-Brute-Force-Attack-Simulator- (1⭐)
+     https://github.com/sayoalonzo2-hue/Simple-Brute-Force-Attack-Simulator-
+     I'm trying to learn cybersecurity. If anyone is interested, please contact me.
+
+025. AtlastDeepLearning/Google-Cybersecurity-Professional-Certificate (1⭐)
+     https://github.com/AtlastDeepLearning/Google-Cybersecurity-Professional-Certificate
+     Repository containing practical exercises, documentation, and learning artifacts from the Google Cybersecurity Professional Certificate (9-course series), including security principles, network security, SIEM tools, incident response, and Python automation.
+
+026. adityasarwade700/human-centric-cyber-ai-architecture (1⭐)
+     https://github.com/adityasarwade700/human-centric-cyber-ai-architecture
+     Human-centric, lock-governed architecture for cybersecurity, AI, automation, robotics, and future system infrastructure.
+
+027. once0626/CyberSecurity-Internship-Task-1 (1⭐)
+     https://github.com/once0626/CyberSecurity-Internship-Task-1
+     Understanding Cyber Security Basics & Attack Surface
+
+028. MaxBrandon6989/MaxChiChung (1⭐)
+     https://github.com/MaxBrandon6989/MaxChiChung
+     Information Systems Student at UTAR | Aspiring Systems Auditor & Cybersecurity Enthusiast | Focus on XAI in FinTech.
+
+029. entorpecimiento/entorpecimiento (1⭐)
+     https://github.com/entorpecimiento/entorpecimiento
+     Personal profile of a B.S. in Programming student focused on full-stack development and cybersecurity.
+
+030. RenaudRabusseau/RenaudRabusseau (1⭐)
+     https://github.com/RenaudRabusseau/RenaudRabusseau
+     Personal profile and portfolio of Renaud Rabusseau. Overview of my journey into Cybersecurity and Offensive Security.
+
+031. Bragaart/CYBERSECURITY-OPERATIONS-CENTER-SOC-SIMULATION-LAB (1⭐)
+     https://github.com/Bragaart/CYBERSECURITY-OPERATIONS-CENTER-SOC-SIMULATION-LAB
+     Ambiente controlado para monitoramento de eventos de segurança, triagem de incidentes e análise de logs.
+
+032. sashiprabhaktk/Cyber_with_KT (1⭐)
+     https://github.com/sashiprabhaktk/Cyber_with_KT
+     Professional Cybersecurity Portfolio showcasing expertise in offensive security, penetration testing operations, and interactive hacking-themed web design.
+
+033. RnKanyanga/Code-Development-with-GitHub (1⭐)
+     https://github.com/RnKanyanga/Code-Development-with-GitHub
+     We will be exploring Code Development in Python for Cybersecurity, Artificial Intelligence (AI) and Machine Learning (ML).
+
+034. dhruva127/Bug-Bounty-Automation (1⭐)
+     https://github.com/dhruva127/Bug-Bounty-Automation
+     Bug-Bounty-Automation is a Bash-based automated reconnaissance framework designed for bug bounty hunters, red teamers, and cybersecurity learners.
+
+035. JAMSHEDKHOSA57/CyberLens (2⭐)
+     https://github.com/JAMSHEDKHOSA57/CyberLens
+     URL and File Scanner Cybersecurity Project
+
+036. Voltsparx/NumBreacher (2⭐)
+     https://github.com/Voltsparx/NumBreacher
+     NumBreacher is a cybersecurity OSINT and telecom reconnaissance tool designed to analyze phone numbers safely and ethically.
+
+037. CodeWhizAnu/QGuard (2⭐)
+     https://github.com/CodeWhizAnu/QGuard
+     A real-time AI-powered cybersecurity tool to detect malicious QR codes and phishing URLs using Computer Vision and Machine Learning.
+
+038. systemadminbdofficials/sourcecode-BOT_STE-LER- (2⭐)
+     https://github.com/systemadminbdofficials/sourcecode-BOT_STE-LER-
+     A cybersecurity awareness and educational lab project that demonstrates how insecure systems can be exploited, with the goal of improving defensive security knowledge and ethical hacking skills.
+
+039. sastraadiwiguna-purpleeliteteaming/Purple-Elite-Teaming-RCE-Unrestricted-DeepDive-Holistic-Framework (2⭐)
+     https://github.com/sastraadiwiguna-purpleeliteteaming/Purple-Elite-Teaming-RCE-Unrestricted-DeepDive-Holistic-Framework
+     [UNRESTRICTED] 100% Deterministic Technical Analysis of Remote Code Execution (RCE). Root Cause Breakdown, Gadget Chains, Memory-Level Evasion (Hell's Gate), and Absolute Mitigation Blueprints for Enterprise Hardening. Lead by SASTRA_ADI_WIGUNA.  Topics / Tags: rce-exploitation purple-teaming cybersecurity-research vulnerability-analysis log4shell
+
+040. samay825/WhatsApp-Network-Tracker (2⭐)
+     https://github.com/samay825/WhatsApp-Network-Tracker
+     A legal, PyQt6-based cybersecurity dashboard for consent-based network traffic analysis on Windows. Captures packet metadata only (IPs, ports, protocols) with filter-driven monitoring and IP tracking - no decryption or MITM. Intended for educational, debugging, and defensive security use on authorized systems only.
+
+041. KiShOrE-2008/Password_Checker (2⭐)
+     https://github.com/KiShOrE-2008/Password_Checker
+     Advanced password strength checker using entropy analysis, pattern detection, crack-time estimation, and secure PBKDF2 hashing in Python.
+
+042. Saorsa-Ind/DISA-STIG-Patch-Cycle-Analyzer (2⭐)
+     https://github.com/Saorsa-Ind/DISA-STIG-Patch-Cycle-Analyzer
+     Standalone, offline Python tool for parsing DISA STIG XCCDF manuals, generating patch-cycle deltas, integrity-checked datasets, and executive-level summaries for regulated environments.
+
+043. notsointresting/alert2action (2⭐)
+     https://github.com/notsointresting/alert2action
+     🚨 Transform security alerts into SOC investigation guides with MITRE ATT&CK mapping, investigation commands, and containment playbooks
+
+044. ShaneYeung-Cyber/Personal-SOC-Lab-T-Pot-CE- (2⭐)
+     https://github.com/ShaneYeung-Cyber/Personal-SOC-Lab-T-Pot-CE-
+     Personal SOC lab using T-Pot CE on AWS to analyze real-world attack telemetry through Honeypots, Suricata, and offline log analysis
+
+045. 2dxKIRA/KIRA-TOOL (2⭐)
+     https://github.com/2dxKIRA/KIRA-TOOL
+     BEST FREE MULTI TOOL EVER !
+
+046. HOZAIFAN/Advanced-SQLi-Scanner- (2⭐)
+     https://github.com/HOZAIFAN/Advanced-SQLi-Scanner-
+     "Advanced SQL Injection Automation Framework for Bug Bounty & Pentesting"
+
+047. igbuend/grimbard (2⭐)
+     https://github.com/igbuend/grimbard
+     A repository of security related skills - like secure code review and pentesting - for Claude and other AI.
+
+048. samtarun-pixel/Enterprise-Active-Directory-Penetration-Test-Full-Domain-Compromise (2⭐)
+     https://github.com/samtarun-pixel/Enterprise-Active-Directory-Penetration-Test-Full-Domain-Compromise
+     Simulated enterprise internal pentest resulting in full Active Directory domain compromise, including enumeration,  privilege escalation, lateral movement, and professional reporting.
+
+049. samtarun-pixel/External-Web-Breach-to-Full-Active-Directory-Compromise-Enterprise-Attack-Simulation (2⭐)
+     https://github.com/samtarun-pixel/External-Web-Breach-to-Full-Active-Directory-Compromise-Enterprise-Attack-Simulation
+     Conducted an end-to-end enterprise breach simulation from external web exploitation to internal pivoting and full Active Directory takeover, delivering a professional pentest report with risk and remediation.
+
+050. diljith369/TheRustSecEngineeringHandbook (2⭐)
+     https://github.com/diljith369/TheRustSecEngineeringHandbook
+     Rust Security Engineering and Offensive Tooling
+
+051. aleztech/gambit-recon (2⭐)
+     https://github.com/aleztech/gambit-recon
+     GAMBIT is an offensive attack surface reconnaissance platform that maps exposed domains, subdomains, IPs, web technologies and weakly exposed endpoints, designed for OPSEC-friendly recon on owned or authorized assets.
+
+052. realcathode/shadow-pam (2⭐)
+     https://github.com/realcathode/shadow-pam
+     Proof of Concept demonstrating Linux authentication bypass via PAM conversation hooking.
+
+053. Sukoed/web3-security-toolkit (2⭐)
+     https://github.com/Sukoed/web3-security-toolkit
+     A comprehensive framework for smart contract auditing, vulnerability scanning, and security best practices for EVM-compatible chains (Base, Ethereum, Optimism)
+
+054. Rohit-Rauniyar01/OmniScan (2⭐)
+     https://github.com/Rohit-Rauniyar01/OmniScan
+     OMNISCAN is a comprehensive, multi-threaded security testing tool designed for web applications and APIs. Built for educational purposes and authorized security testing
+
+055. ankitmoradiya/API-Hunter (2⭐)
+     https://github.com/ankitmoradiya/API-Hunter
+     🎯 A powerful API reconnaissance and documentation tool for security testing. Discovers hidden endpoints via Wayback Machine, CommonCrawl, and JS parsing. Generates OpenAPI/Swagger & Postman collections for automated security analysis.
+
+056. 9M6/vulnsink (2⭐)
+     https://github.com/9M6/vulnsink
+     A CLI tool that wraps SAST scanners and uses LLMs to filter false positives and automatically fix security issues.
+
+057. Akshat-cs/realtime-liquidity-drain-detector (2⭐)
+     https://github.com/Akshat-cs/realtime-liquidity-drain-detector
+     Real-time DeFi security tool that monitors DEX pools to detect liquidity drains. Python-based with web dashboard for instant alerts.
+
+058. Yenn503/PRISM (2⭐)
+     https://github.com/Yenn503/PRISM
+     PRISM - Penetration & Red-team Intelligence Security Module. Autonomous AI-powered red team framework with multi-agent orchestration, Strix-like TUI, and Docker-isolated tool execution.
+
+059. ryanzhou147/Hawking.ai (2⭐)
+     https://github.com/ryanzhou147/Hawking.ai
+     Nexhacks EMG Hardware Hack
+
+060. Rafus0621/Bodycam-adventure-2026 (2⭐)
+     https://github.com/Rafus0621/Bodycam-adventure-2026
+     Bodycam Hack Mod Menu 2026 | Infinite Health Ammo God Mode Instant Kill Aimbot ESP | Bodycam Cheats January 2026
+
+061. rodrixc982/Level-Zero-Extraction-One-Shot (2⭐)
+     https://github.com/rodrixc982/Level-Zero-Extraction-One-Shot
+     Level Zero Extraction hack 2026 | Infinite Health Ammo God Mode One-Shot Teleport ESP | Level Zero Extraction Cheats Full Game January 2026
+
+062. Subhankausar/Diablo-IV (2⭐)
+     https://github.com/Subhankausar/Diablo-IV
+     Diablo IV Hack Bot 2026 | Unlimited Gold Health God Mode Instant Level One-Shot Bosses | Diablo 4 Cheats Season 7 January 2026
+
+063. rodrixc982/dead-by-daylight-2026 (2⭐)
+     https://github.com/rodrixc982/dead-by-daylight-2026
+     Dead by Daylight Hack Mod Menu 2026 | Unlimited Bloodpoints Health One-Shot Hooks Instant Mori Unlock all | DBD Cheats Full Game January 2026
+
+064. VortexProtocol765/Heroes-of-the-Storm-for-MOBA-domination (2⭐)
+     https://github.com/VortexProtocol765/Heroes-of-the-Storm-for-MOBA-domination
+     Heroes of the Storm Hack 2026 — God Mode · One-Hit Kill · ESP · Unlock All Heroes/Skins · Infinite Gold | Undetected mod menu for MOBA domination
+
+065. 3lprox/NatiTube (2⭐)
+     https://github.com/3lprox/NatiTube
+     NatiTube is a lightweight script designed to replace the standard YouTube web player with the native system player on iOS and Android devices. It enables native Picture-in-Picture, system-level gesture controls, and improved performance by bypassing the mobile web interface restrictions. Compatible with iOS Shortcuts and InjecThor.
+
+066. SANJAIRATHINAM-R/DRAGON-BYTE-Phishing-Tool (2⭐)
+     https://github.com/SANJAIRATHINAM-R/DRAGON-BYTE-Phishing-Tool
+     DRAGON BYTE is an open source,automated phishing tool
+
+067. coderJJJ6767/Blooket-Hacks-GUI-2 (2⭐)
+     https://github.com/coderJJJ6767/Blooket-Hacks-GUI-2
+     These hacks are being tested constantly some are kinda broken but I try to fix them instructions to use them: 1. Copy the code  2. Make a bookmark  3. Go to bookmarks and then edit them  4. Paste the code into the URL 5. Press the save button 6. Go to Blooket.com  7. Press the bookmark  8. Then you are done! Use them to have fun!
+
+068. Iankulani/accurate-spider-bot-v0.0.1 (3⭐)
+     https://github.com/Iankulani/accurate-spider-bot-v0.0.1
+     accurate-spider-bot-v0.0.1 is an advanced, modular cybersecurity spider bot designed to help users troubleshoot, monitor, analyze, and respond to network-based cyber threats in real time.
+
+069. xonoxitron/polymorph (3⭐)
+     https://github.com/xonoxitron/polymorph
+     🛡️ Open-source APE, Zig, and WASM polyglot malware detector. Catch cross-platform threats that evade AV. ⚡
+
+070. Usergh0st/Gh0stFramework (3⭐)
+     https://github.com/Usergh0st/Gh0stFramework
+     The Gh0stFramework script will make your life easier and, of course, faster because it is a suite of several scripts to do different things on the system such as maintenance, hacking, pentesting, and other things.
+
+071. g-clef/SAT-skill (3⭐)
+     https://github.com/g-clef/SAT-skill
+     Claude Skill to run Structured Analytic Techniques for infosec investigations
+
+072. ToastyToast25/claude-code-dart-flutter (3⭐)
+     https://github.com/ToastyToast25/claude-code-dart-flutter
+     Claude Code agent system for Dart/Flutter development - 34 agents, 29 skills, templates, hooks, and security tools
+
+073. chetanngavali/EVIL_TWINS_ESP8266 (3⭐)
+     https://github.com/chetanngavali/EVIL_TWINS_ESP8266
+     Evil Twin ESP8266 is a state-of-the-art, feature-rich penetration testing tool designed for the ESP8266 platform. It allows security researchers to simulate an "Evil Twin" attack to audit the security awareness of wireless users.
+
+074. roomkangali/dashboard-report-dlh (3⭐)
+     https://github.com/roomkangali/dashboard-report-dlh
+     Dashboard Report Droid-LLM-Hunter is a specialized web interface designed to visualize and manage security analysis reports generated by the Droid-LLM-Hunter tool
+
+075. logic0x01/smtp-enum (3⭐)
+     https://github.com/logic0x01/smtp-enum
+     SMTP-Enum is a lightweight, high-speed Python 3 tool designed for security researchers and penetration testers to identify valid users on a target mail server. It leverages the SMTP VRFY command to query the server and determine if a specific username exists.
+
+076. Khokhar295/CSF-Net-Hunter-v1 (3⭐)
+     https://github.com/Khokhar295/CSF-Net-Hunter-v1
+     An ESP32 based WiFi Scanner and Analyzer for Ethical Hacking and Network Testing.
+
+077. abhishek9100/Hytale-Infinite-2026 (3⭐)
+     https://github.com/abhishek9100/Hytale-Infinite-2026
+     Hytale Hack 2026 — Infinite Resources · God Mode · Fly · Unlock All Items · One-Hit Kill | cheat mod menu for ultimate sandbox building
+
+078. Cyber-specterz/Quickstrike-v2 (3⭐)
+     https://github.com/Cyber-specterz/Quickstrike-v2
+     About QuickStrike v2 is a fast, lightweight, multi-threaded reconnaissance and port scanning tool designed for ethical hackers and bug bounty hunters. It provides efficient target discovery, service identification, and basic banner grabbing with clean CLI output, making it ideal for learning and real-world recon workflows
+
+079. Iankulani/accurate-spider-bot-v0.0.2 (4⭐)
+     https://github.com/Iankulani/accurate-spider-bot-v0.0.2
+     accurate-spider-bot v0.0.2 is an enhanced version of the Accurate Spider Bot cybersecurity platform, designed to provide deeper visibility into network behavior and traffic patterns.
+
+080. klsdfernando/VoidTunnel (4⭐)
+     https://github.com/klsdfernando/VoidTunnel
+     A powerful Linux VPN/Proxy client (GUI) built with Python & PyQt6. Uses Xray-core for VMess, VLESS, Trojan, Shadowsocks & SSH connections. Features payload injection & real-time stats.
+
+081. dinhquan/claude-ios-toolkit (4⭐)
+     https://github.com/dinhquan/claude-ios-toolkit
+     A concise toolkit of Claude Code agents, rules, commands, and skills tailored for modern iOS development—covering Swift/SwiftUI architecture, testing, security, performance, and build/release workflows.
+
+082. nirholas/ethereum-wallet-toolkit (4⭐)
+     https://github.com/nirholas/ethereum-wallet-toolkit
+     Python toolkit for Ethereum wallets: CLI tools + Model Context Protocol (MCP) servers for wallet generation, BIP39/BIP44 HD wallets, Web3 Secret Storage V3 keystores, and EIP-712 typed data signing
+
+083. canyouhack-org/cyh-terminal (5⭐)
+     https://github.com/canyouhack-org/cyh-terminal
+     Web terminal with isolated Docker containers for pentesting
+
+084. BenzoXdev/OXIL_STEALER (5⭐)
+     https://github.com/BenzoXdev/OXIL_STEALER
+     Next-Gen Stealer written in Go. Stealing from Discord, Chromium-Based & Firefox-Based Browsers, Crypto Wallets and more, from every user on every disk. (PoC. For educational purposes only)
+
+085. nushackers/hnr26-badge-quacknroll (5⭐)
+     https://github.com/nushackers/hnr26-badge-quacknroll
+     Hack&Roll 2026 "Quack & Roll" badge source files, for both hardware and firmware
+
+086. HackingLZ/AgentProvocateur (6⭐)
+     https://github.com/HackingLZ/AgentProvocateur
+     For testing or trolling LLM based pentesting frameworks
+
+087. ctkqiang/QianKunQuan (7⭐)
+     https://github.com/ctkqiang/QianKunQuan
+     乾坤圈 (QianKunQuan) 是一款功能强大的网络安全扫描工具，专为渗透测试人员、安全研究人员和系统管理员设计。它结合了高效端口扫描、服务识别、版本检测和CVE漏洞关联等核心功能，帮助您快速评估目标系统的安全状况。
+
+088. LongWeihan/Turbo-Softmax (7⭐)
+     https://github.com/LongWeihan/Turbo-Softmax
+     A blazing fast, header-only Softmax implementation in C using 5th-order polynomial approximation and IEEE 754 bit-hacking. Optimized for embedded systems and edge AI.
+
+089. amitgy/seccheckmate (9⭐)
+     https://github.com/amitgy/seccheckmate
+     Offline security checklist & report generator
+
+090. iblu23/IBLU_KALIGPTWITHMCP (10⭐)
+     https://github.com/iblu23/IBLU_KALIGPTWITHMCP
+     IBLU Professional Hacking Assistant - AI-Powered Cybersecurity Platform
+
+091. miunasu/IDA-Skill (10⭐)
+     https://github.com/miunasu/IDA-Skill
+     使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro
+
+092. omonien/DX.HttpDiag (10⭐)
      https://github.com/omonien/DX.HttpDiag
      HTTPS URL diagnostic command-line tool for Windows - Certificate analysis, DNS resolution, proxy detection
 
-024. f0rw4rd/potsnitch (11⭐)
-     https://github.com/f0rw4rd/potsnitch
-     Honeypot detection toolkit
+093. Ilias1988/ReverseShell-Generator (11⭐)
+     https://github.com/Ilias1988/ReverseShell-Generator
+     Educational reverse shell command generator for authorized lab testing.
 
-025. exodialabsxyz/exodus (11⭐)
-     https://github.com/exodialabsxyz/exodus
-     EXODUS is a lightweight, modular, open-source AI cybersecurity framework. Create and share your agents, add capabilities by creating plugins, and automate your agent teams for pentesting, reconnaissance, vulnerability discovery, and much more.
+094. alhamrizvi-cloud/urlx (18⭐)
+     https://github.com/alhamrizvi-cloud/urlx
+     Multi-source URL discovery & live host probing for bug bounty and red team recon
 
-026. GoldSkull-777/GoldMAC (11⭐)
-     https://github.com/GoldSkull-777/GoldMAC
-     Anonymous MAC address rotation tool for pentesting & OPSEC
+095. gatekit-ai/gatekit (23⭐)
+     https://github.com/gatekit-ai/gatekit
+     A hackable Model Context Protocol (MCP) gateway
 
-027. yo-yo-yo-jbo/python_for_researchers (11⭐)
-     https://github.com/yo-yo-yo-jbo/python_for_researchers
-     Python for offensive security research
+096. Chocapikk/pgread (30⭐)
+     https://github.com/Chocapikk/pgread
+     Read PostgreSQL data files without credentials - forensics, data recovery, and security research tool
 
-028. uldyssian-sh/vmware-tools-auto-upgrade (11⭐)
-     https://github.com/uldyssian-sh/vmware-tools-auto-upgrade
-     Enterprise PowerCLI solution for bulk-enabling VMware Tools auto-upgrade on power-on across all VMs in vCenter environments. Features dry-run mode, comprehensive reporting, and enterprise-grade security.
-
-029. metareflection/henri (11⭐)
-     https://github.com/metareflection/henri
-     a small, hackable agent CLI in Python, with explicit control via tools, permissions, and hooks
-
-030. toxy4ny/cortisol (12⭐)
-     https://github.com/toxy4ny/cortisol
-     WAF Bypass & Normalization Stress Tester (for Red Teams)
-
-031. Phon3x/phon3x-art (12⭐)
-     https://github.com/Phon3x/phon3x-art
-     Professional F5 steganography tool with AES-256 encryption. Provide military-grade security! Hides data in JPEG images that survives Facebook, Messenger, and other platform processing.
-
-032. TheStingR/CVE-2025-68613-POC (12⭐)
-     https://github.com/TheStingR/CVE-2025-68613-POC
-     Public PoC + Scanner and research for CVE-2025-68613: Critical RCE in n8n Workflow Automation via Expression Injection (CVSS 10.0). Includes detection tools, full exploit, and remediation guidance.
-
-033. jhaxce/student-perks (12⭐)
-     https://github.com/jhaxce/student-perks
-     The curated database of free software, cloud credits, and premium tools for students.
-
-034. Swek09/DepSentry (12⭐)
-     https://github.com/Swek09/DepSentry
-     🛡️ Blazing fast Supply Chain Security tool written in Rust. Features ephemeral sandboxing, hybrid analysis (CVE + Heuristics), and entropy-based malware detection.
-
-035. Dsevenfex/FexCam (13⭐)
-     https://github.com/Dsevenfex/FexCam
-     FexCam | Advanced OSINT & Web API Exposure Tool. Captures Metadata, Geolocation, and Media Streams for security awareness and educational research. Supports Cloudflare & Ngrok.
-
-036. 1nn0k3sh4/GigaChat-Prompt-Jailbreak (13⭐)
-     https://github.com/1nn0k3sh4/GigaChat-Prompt-Jailbreak
-     This research identifies a method to bypass safety systems in the GigaChat LLM, enabling the generation of potentially harmful content related to chemical synthesis through a "contextual camouflage" technique.
-
-037. loaded/sharetrace (13⭐)
-     https://github.com/loaded/sharetrace
-     🎭 Reveal the identity behind a share link
-
-038. Dicklesworthstone/curl_bash_one_liners_for_flywheel_tools (13⭐)
-     https://github.com/Dicklesworthstone/curl_bash_one_liners_for_flywheel_tools
-     Quick curl bash one-liners to install Agent Flywheel ecosystem tools - 23 tools for AI coding agent orchestration, memory, security, and more
-
-039. cumakurt/litm (14⭐)
-     https://github.com/cumakurt/litm
-     Linux Incident Time Machine - A tool for generating human-readable, event-based timelines from Linux `audit.log` files. Designed for SOC analysts to quickly understand security events and present findings to management.
-
-040. syrex1013/TetraEar (14⭐)
-     https://github.com/syrex1013/TetraEar
-     TETRA decoder for RTL-SDR with voice decoding, encryption support, and real-time spectrum analyzer
-
-041. aancw/pentlog (15⭐)
-     https://github.com/aancw/pentlog
-     Evidence-First Pentest Logging Tool. Captures shell activity as plain-text terminal logs backed by ttyrec/ttyplay
-
-042. TheCyberJest0r/Wifi-Pineapple-Pager-Payloads-Cheat-sheet (15⭐)
-     https://github.com/TheCyberJest0r/Wifi-Pineapple-Pager-Payloads-Cheat-sheet
-     🍍 Complete bash function cheat sheet for WiFi Pineapple Pager! Includes visual diagrams, code examples, and interactive docs - everything you need to master the pager :3 perfect for authorized pentesting!
-
-043. barrank/yastrider (15⭐)
-     https://github.com/barrank/yastrider
-     A small, predictable, dependency-free toolkit for defensive string cleansing and tidying
-
-044. Kirill89/reviewcerberus (15⭐)
-     https://github.com/Kirill89/reviewcerberus
-     AI-powered code review tool that analyzes git branch differences and generates comprehensive review reports. Supports AWS Bedrock and Anthropic API. Features automated analysis of logic, security, performance, and code quality with smart token efficiency through prompt caching.
-
-045. AnAxemRanger/Marios-Endless-Nightmare (15⭐)
-     https://github.com/AnAxemRanger/Marios-Endless-Nightmare
-     Patch file and other things related to my roguelike SMRPG hack, Mario's Endless Nightmare
-
-046. R00T-Kim/awesome-offensive-mcp (16⭐)
-     https://github.com/R00T-Kim/awesome-offensive-mcp
-     A curated list of Offensive Security MCP Servers for Red Teaming & Pentesting.
-
-047. cyb3rint3l-labs/ServerSecurityAudit (17⭐)
+097. cyb3rint3l-labs/ServerSecurityAudit (33⭐)
      https://github.com/cyb3rint3l-labs/ServerSecurityAudit
      PowerShell-based Windows Server Security Audit Engine by Cyb3rint3l Labs. Measures alignment with the NIS2 directive and maps findings to MITRE ATT&CK tactics & CIS Controls v8 practices. Generates interactive HTML dashboards & structured JSON datasets.
 
-048. reward-scope-ai/reward-scope (17⭐)
-     https://github.com/reward-scope-ai/reward-scope
-     Real-time reward debugging and hacking detection for reinforcement learning
-
-049. sanyalsunny111/Looped-GPT (17⭐)
-     https://github.com/sanyalsunny111/Looped-GPT
-     Minimal and highly hackable implementation of Looped Transformers with GPT
-
-050. aimardcr/AVS (18⭐)
-     https://github.com/aimardcr/AVS
-     AVS is a static application security testing (SAST) tool for detecting common and high-impact vulnerabilities in Android applications.
-
-051. HackerDLJ/100-Hacking-Tools- (18⭐)
-     https://github.com/HackerDLJ/100-Hacking-Tools-
-     100 Hacking tools that is Legal to use
-
-052. mitocondria40/OSINT-dork-tool (19⭐)
-     https://github.com/mitocondria40/OSINT-dork-tool
-     A privacy-focused, client-side OSINT tool designed to automate advanced Google Dorking. Streamlines the passive reconnaissance phase for ethical hackers and security researchers by generating complex queries for exposed files, server directories, and misconfigurations. No server-side tracking, 100% static & open source.
-
-053. mellow-hype/mt7622-qemu-vm (19⭐)
-     https://github.com/mellow-hype/mt7622-qemu-vm
-     QEMU emulation of MediaTek MT7622 PCI driver
-
-054. SpectrixDev/DIY_WhisperPair (21⭐)
+098. SpectrixDev/DIY_WhisperPair (35⭐)
      https://github.com/SpectrixDev/DIY_WhisperPair
      Hijacking Bluetooth Accessories Using Google Fast Pair: WhisperPair CVE-2025-36911 Reference Implementation & Vulnerability Verification Toolkit
 
-055. jusii/c64u_server_switcher (21⭐)
-     https://github.com/jusii/c64u_server_switcher
-     DNS and mitmproxy hack to allow user to use both assembly64 and commoserve servers for games and apps.
+099. Otsmane-Ahmed/sliver-tor-bridge (41⭐)
+     https://github.com/Otsmane-Ahmed/sliver-tor-bridge
+     Tor transport bridge for Sliver C2 - anonymous command and control
 
-056. Escape-Technologies/awesome-attack-surface-management (23⭐)
-     https://github.com/Escape-Technologies/awesome-attack-surface-management
-     A curated collection of tools, techniques, frameworks, and learning resources focused on Attack Surface Management (ASM).
-
-057. djvirus9/awesome-devsecops-mastery-2026 (24⭐)
-     https://github.com/djvirus9/awesome-devsecops-mastery-2026
-     🛡️ A curated, actionable checklist for securing CI/CD pipelines and Kubernetes clusters in 2026.
-
-058. cybertechajju/CVE-2025-14847_Expolit (24⭐)
-     https://github.com/cybertechajju/CVE-2025-14847_Expolit
-     a critical memory disclosure vulnerability in MongoDB's zlib compression handling. This tool allows security researchers to extract sensitive data from vulnerable MongoDB instances.
-
-059. clivoa/awesome-security-feeds (26⭐)
-     https://github.com/clivoa/awesome-security-feeds
-     Awesome Security Feeds a curated, structured and automation-friendly collection of security RSS/Atom sources. Based on https://securityfeeds.org/
-
-060. mastomii/nexss (26⭐)
-     https://github.com/mastomii/nexss
-     NeXSS is a modern, self-hosted Blind XSS (Cross-Site Scripting) hunter and callback listener built with Next.js. It helps security researchers and penetration testers discover and validate blind XSS vulnerabilities by capturing detailed information when payloads execute on target systems.
-
-061. girste/mcp-cybersec-watchdog (28⭐)
-     https://github.com/girste/mcp-cybersec-watchdog
-     🐕 Cybersecurity monitoring and analysis for Linux servers via MCP
-
-062. VinavilDev/glueprint (28⭐)
-     https://github.com/VinavilDev/glueprint
-     A fast, accurate web technology fingerprinting tool built for security professionals.
-
-063. roblox-hackss/roblox-hack (30⭐)
-     https://github.com/roblox-hackss/roblox-hack
-     roblox hack panel 🔥 roblox hacking panel 🔥 roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack roblox hack hack
-
-064. Hertzmisafeguard/PUBG (30⭐)
-     https://github.com/Hertzmisafeguard/PUBG
-     PUBG hacks hack cheat cheats aimbot wallhack ESP no-recoil no-spread triggerbot silent-aim radar-hack bunny-hop infinite-abilities auto-plant defuse anti-flash anti-smoke player-ESP agent-ESP instant-reload rapid-fire no-sway third-person
-
-065. Macmod/flashingestor (31⭐)
-     https://github.com/Macmod/flashingestor
-     A TUI for Active Directory collection.
-
-066. tinnerhrhe/GARDO (35⭐)
-     https://github.com/tinnerhrhe/GARDO
-     Official codes for the paper "GARDO: Reinforcing Diffusion Models without Reward Hacking"
-
-067. Aaronontheweb/dotnet-slopwatch (36⭐)
-     https://github.com/Aaronontheweb/dotnet-slopwatch
-     Catch naughty LLM reward-hacking and bad behavior for .NET coding
-
-068. leftp/SharpPXE (37⭐)
-     https://github.com/leftp/SharpPXE
-     A C# tool for extracting information from SCCM PXE boot media.
-
-069. jaredfolkins/llmon (39⭐)
-     https://github.com/jaredfolkins/llmon
-     LLMON 🍋 - The World's First Web Adversarial AI Firewall
-
-070. adityatelange/frida-ui (39⭐)
-     https://github.com/adityatelange/frida-ui
-     Interact with Frida devices, processes, and scripts directly from your browser.
-
-071. CyberSecurityUP/BlueGuardian (42⭐)
-     https://github.com/CyberSecurityUP/BlueGuardian
-     Advanced Blue Team Security Analysis Framework powered by Multiple AI Models
-
-072. danish296/codevibes (43⭐)
-     https://github.com/danish296/codevibes
-     CodeVibes is an intelligent AI-powered code analysis tool that scans your GitHub repositories to uncover security vulnerabilities, bugs and performance bottlenecks, and code quality issues — then translates them into actionable insights and a measurable Vibe Score that helps you continuously improve your codebase.
-
-073. manateelazycat/lazycat-terminal (43⭐)
-     https://github.com/manateelazycat/lazycat-terminal
-     Hackable terminal
-
-074. goldendaggersieve/Call-Of-Duty-Cheat (44⭐)
-     https://github.com/goldendaggersieve/Call-Of-Duty-Cheat
-     COD Mobile Hacks 2025: Best Free Cheats, Aimbot, Wallhack
-
-075. VAZlabs/cyber-find (50⭐)
-     https://github.com/VAZlabs/cyber-find
-     CyberFind — a next-generation OSINT reconnaissance tool designed for cybersecurity professionals, penetration testers, and digital investigators. Search for users across 200+ platforms with speed and accuracy.
-
-076. halilkirazkaya/arsenal-ng (51⭐)
-     https://github.com/halilkirazkaya/arsenal-ng
-     The classic launcher, evolved. Fast, Go-based command library equipped with 200+ cybersecurity cheat-sheets. Just install and start hacking.
-
-077. thecybersandeep/adbauditor (53⭐)
-     https://github.com/thecybersandeep/adbauditor
-     Browser-based Android security auditing tool.
-
-078. Y0oshi/Project-Eyes-On (58⭐)
-     https://github.com/Y0oshi/Project-Eyes-On
-     Project Eyes On is a high-speed, multi-threaded surveillance tool by Y0oshi (@rde0) for locating open IP cameras worldwide. Unifies Google Dorking and Directory Scraping into a single OSINT engine.
-
-079. kira-mari/discord-c2-poc (62⭐)
-     https://github.com/kira-mari/discord-c2-poc
-     A stealthy Command & Control (C2) framework using Discord. Written in Go for educational research (Red/Blue Teaming).
-
-080. matank001/Moxy (63⭐)
-     https://github.com/matank001/Moxy
-     Moxy is an open-source DAST tool designed for modern web application security testing. It provides an easy-to-use interface with agentic capabilities to assist and automate pentesting workflows.
-
-081. huifer/skill-security-scan (65⭐)
-     https://github.com/huifer/skill-security-scan
-     skill-security-scan is a command-line tool designed to scan and detect security risks in Claude Skills. Before installing third-party Skills, use this tool for security review to effectively prevent malicious code from stealing data or compromising your system.
-
-082. gofenix/nex (70⭐)
-     https://github.com/gofenix/nex
-     Nex – A minimalist web framework for indie hackers and startups
-
-083. fr33d3m0n/skill-threat-modeling (74⭐)
-     https://github.com/fr33d3m0n/skill-threat-modeling
-     Code-First Deep Risk Analysis Skill for Claude Code - 8-Phase Workflow with Security design review, STRIDE Threat modeling, PenTest and attack chain analysis, Software compliance assessment
-
-084. Print3M/Google-Hack-Search (75⭐)
-     https://github.com/Print3M/Google-Hack-Search
-     Custom Google search engine dedicated to IT security & hacking stuff. Over 240 high-quality sources.
-
-085. jobin-404/debtbomb (75⭐)
-     https://github.com/jobin-404/debtbomb
-     DebtBomb lets teams ship temporary hacks safely by attaching an expiry date to them. When the date passes, the bomb explodes — CI fails, a ticket is created, and your team is notified in Slack, Discord, or Microsoft Teams — forcing the debt to be owned, tracked, and cleaned up instead of silently rotting forever.
-
-086. postrv/narsil-mcp (76⭐)
-     https://github.com/postrv/narsil-mcp
-     Rust MCP server for comprehensive code intelligence - 90 tools, 32 languages, security scanning, call graphs, and more
-
-087. jxroot/ZeroPulse (82⭐)
-     https://github.com/jxroot/ZeroPulse
-     🔒 Modern C2 Platform with Cloudflare Tunnel Integration | WinRM & SSH Remote Management | Real-time Terminal & Remote Desktop | Built with FastAPI & React
-
-088. Y0oshi/Project-Deep-Focus (89⭐)
-     https://github.com/Y0oshi/Project-Deep-Focus
-     Your personal 'Mini Shodan'. A high-performance network reconnaissance engine designed for massive scale asset discovery. Specializes in identifying unsecured services (Open RTSP Cameras, No-Auth VNC, Anonymous FTP) and deeply fingerprints device models with a beautiful real-time terminal dashboard.
-
-089. Sakura-sx/Aroma (106⭐)
-     https://github.com/Sakura-sx/Aroma
-     Every TCP Proxy Is Detectable With RTT Fingerprinting
-
-090. frangelbarrera/OSINT-BIBLE (122⭐)
-     https://github.com/frangelbarrera/OSINT-BIBLE
-     A comprehensive 2026 guide to Open-Source Intelligence (OSINT): tools, methodologies, ethics, and techniques for responsible research and investigation.
-
-091. vitalichkaa/CVE-2025-8088 (133⭐)
-     https://github.com/vitalichkaa/CVE-2025-8088
-     CVE 2025 8088
-
-092. n-WN/SubgroupX (141⭐)
-     https://github.com/n-WN/SubgroupX
-     正规子群.AI Agent | SubgroupX: A high-performance AI Agent for offensive security, CTF operations, and active defense protocols. Architected by Normal Subgroup. 这里在倒计时结束后会替换为 Agent 源码
-
-093. m4lwhere/profilehound (143⭐)
-     https://github.com/m4lwhere/profilehound
-     ProfileHound - BloodHound OpenGraph collector for user profiles stored on domain machines. Make informed decisions about looting secrets by identifying active user profiles on domain machines.
-
-094. DOSAYGO-STUDIO/HackerBook (177⭐)
-     https://github.com/DOSAYGO-STUDIO/HackerBook
-     Hacker Book - COMMUNITY, ALL THE HN ARE BELONG TO YOU. An unkillable, static offline archive of all of Hacker News. Updated weekly.
-
-095. vflame6/leaker (209⭐)
-     https://github.com/vflame6/leaker
-     Passive leak enumeration tool.
-
-096. tsale/awesome-dfir-skills (212⭐)
-     https://github.com/tsale/awesome-dfir-skills
-     A curated collection of DFIR skills and workflows for InfoSec practitioners.
-
-097. zalexdev/wpair-app (227⭐)
+100. zalexdev/wpair-app (443⭐)
      https://github.com/zalexdev/wpair-app
      WPair is a defensive security research tool that demonstrates the CVE-2025-36911 (eg WhisperPair) vulnerability in Google's Fast Pair protocol. This vulnerability affects millions of Bluetooth audio devices worldwide, allowing unauthorized pairing and potential microphone access without user consent.
-
-098. Infernalieruminate/Valorant-New-Cheat-2026 (375⭐)
-     https://github.com/Infernalieruminate/Valorant-New-Cheat-2026
-     VALORANT Cheat - Aimbot, ESP, Ragebot hack, Skinchanger & more! Regularly updated.
-
-099. BrinkConsultantGrip/Rust-Undetected-Cheat-2026 (377⭐)
-     https://github.com/BrinkConsultantGrip/Rust-Undetected-Cheat-2026
-     Rust Trainer 2026 – ESP, Aimbot, Speed Hack, No Recoil & God Mode for Rust PC | Unlimited Resources, PvP & PvE Boost
-
-100. zakirkun/guardian-cli (599⭐)
-     https://github.com/zakirkun/guardian-cli
-     Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 
